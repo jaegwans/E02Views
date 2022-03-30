@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.E02Views">
+        <activity android:name=".SpinnersActivity" android:label="@string/action_spinners" />
         <activity
             android:name=".CheckboxesActivity"
-            android:label="체크박스"
-            android:exported="false" />
+            android:exported="false"
+            android:label="체크박스" />
         <activity
             android:name=".ButtonsActivity"
             android:exported="false"
